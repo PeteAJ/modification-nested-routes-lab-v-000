@@ -2,6 +2,7 @@
 
 <%= form_for @artist  do |f| %>
   <%= f.label :name %>
+  <%= f.hidden_field :artist_id %>
   <%= f.text_field :name %>
   <br />
 
